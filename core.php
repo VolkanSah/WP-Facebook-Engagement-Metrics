@@ -101,6 +101,7 @@ function generate_facebook_access_token($app_id, $app_secret) {
     return $json['access_token'];
 }
 function fetch_facebook_metrics($url, $access_token) {
+    // graph url can be changed in future. I use only basic code so check url if doesnt work
     $request_url = "https://graph.facebook.com/v13.0/?id=" . urlencode($url) . "&fields=engagement&access_token=" . $access_token;
     $response = file_get_contents($request_url);
     $json = json_decode($response, true);
