@@ -26,3 +26,5 @@ If you want to contribute to this plugin, please create a new branch and submit 
 ## License
 
 Copyright Volkan Sah Kücükbudak.
+
+Become a sponsor
