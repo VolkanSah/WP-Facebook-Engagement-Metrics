@@ -21,8 +21,9 @@
  * License URI:       https://wordPress-webmaster.de/licenses/wordpress-global.txt
  * Update URI:        https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/
  */
+// Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly
+    exit;
 }
 // Create Option Page
 function fb_engagement_metrics_options_page() {
