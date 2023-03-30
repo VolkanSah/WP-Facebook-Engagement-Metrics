@@ -14,6 +14,8 @@ Please note that the initial installation may take some time, especially on shar
 ## Usage
 
 The plugin adds a dashboard widget that displays the number of likes, shares, and comments for each published post or page that contains a link to a Facebook post. The metrics are updated in real-time and are pulled from the Facebook Graph API.
+
+
 <img src="facebook-metrics.png">
 
 
