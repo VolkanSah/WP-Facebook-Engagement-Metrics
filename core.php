@@ -14,10 +14,10 @@
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
- * Author:            Your Name
+ * Author:            Volkan Kücükbudak
  * Author URI:        https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/
  * Text Domain:       fb-em
- * License:           GPL v2 or later
+ * License:           Privat
  * License URI:       https://wordPress-webmaster.de/licenses/wordpress-global.txt
  * Update URI:        https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/
  */
