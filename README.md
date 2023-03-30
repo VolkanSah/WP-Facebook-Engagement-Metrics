@@ -1,4 +1,5 @@
 # Facebook Engagement Metrics (lite) WordPress Plugin 
+(Update: 04/2023)
 
 This plugin displays Facebook engagement metrics for published links in the WordPress dashboard. 
   
