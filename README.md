@@ -30,5 +30,3 @@ If you want to contribute to this plugin, please create a new branch and submit 
 - [VolkanSah on Github](https://github.com/volkansah)
 - [Developer Site](https://volkansah.github.io)
 
-### License
-This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
