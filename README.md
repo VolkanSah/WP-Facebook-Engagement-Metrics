@@ -24,8 +24,11 @@ The plugin adds a dashboard widget that displays the number of likes, shares, an
 
 If you want to contribute to this plugin, please create a new branch and submit a pull request. We welcome all contributions, including bug fixes, feature requests, and translations.
 
-## License
+### Thank you for your support!
+- If you appreciate my work, please consider [becoming a 'Sponsor'](https://github.com/sponsors/volkansah), giving a :star: to my projects, or following me. 
+### Credits
+- [VolkanSah on Github](https://github.com/volkansah)
+- [Developer Site](https://volkansah.github.io)
 
-Copyright Volkan Kücükbudak.
-
-<a href="https://github.com/sponsors/VolkanSah">Become a sponsor</a>
+### License
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
