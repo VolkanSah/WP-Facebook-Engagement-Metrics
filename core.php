@@ -4,7 +4,7 @@
  *
  * @package           Facebook Engagement Metrics
  * @author            Volkan Kücükbudak
- * @copyright         2018-2023 WordPress-Webmaster.de
+ * @copyright         2018-2023 
  * @license           Privat
  *
  * @wordpress-plugin
@@ -18,7 +18,7 @@
  * Author URI:        https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/
  * Text Domain:       fb-em
  * License:           Privat
- * License URI:       https://wordPress-webmaster.de/licenses/wordpress-global.txt
+ * License URI:       
  * Update URI:        https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/
  */
 // Exit if accessed directly
