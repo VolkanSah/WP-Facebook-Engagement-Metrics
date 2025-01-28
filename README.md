@@ -1,4 +1,4 @@
-# Facebook Engagement Metrics (lite) WordPress Plugin 
+# Facebook Engagement Metrics v2 for WP
 2025 DEV STATUS DO NOT USE! I AM PLAYING
   
 If you need only the function in php or FB php-sdk use this: [Facebook Domain Metrics Checker]( https://github.com/VolkanSah/Facebook-Domain-Metrics-Checker)
