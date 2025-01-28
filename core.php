@@ -11,7 +11,7 @@
  * Plugin Name:       Facebook Engagement Metrics v2
  * Plugin URI:        https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/
  * Description:       The Facebook Engagement Metrics WordPress Plugin displays engagement metrics such as likes, shares, and comments for published links on your WordPress dashboard. This tool is essential for social media and SEO marketing as it provides insights into the performance of your Facebook posts and allows you to optimize your content strategy accordingly. Use our plugin to monitor the impact of your social media marketing efforts, identify top-performing posts, and track engagement trends over time. Stay ahead of the competition and improve your online presence with our easy-to-use Facebook engagement metrics plugin for WordPress.
- * Version:           1.0.0
+ * Version:           2.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Volkan Kücükbudak
