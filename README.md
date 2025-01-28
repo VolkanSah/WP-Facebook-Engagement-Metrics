@@ -35,7 +35,7 @@ The **Facebook Engagement Metrics v2** WordPress plugin allows you to track and 
   - **Likes**: Reaction counts on your Facebook links.
   - **Shares**: Total number of times links have been shared.
   - **Comments**: Comments associated with your links.
-- Manual updates can be triggered via the settings page if needed.
+- Manual updates can be triggered 
 
 ## Screenshot
 
