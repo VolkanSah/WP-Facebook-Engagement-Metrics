@@ -4,7 +4,7 @@
  *
  * @package           Facebook Engagement Metrics
  * @author            Volkan Kücükbudak
- * @copyright         2018-2023 
+ * @copyright         2018-2025 
  * @license           Privat
  *
  * @wordpress-plugin
