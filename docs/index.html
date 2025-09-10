@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Engagement Metrics for WordPress</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .facebook-blue {
+            background-color: #1877f2;
+        }
+        .facebook-blue-text {
+            color: #1877f2;
+        }
+        .facebook-blue-border {
+            border-color: #1877f2;
+        }
+        .hover-facebook-blue:hover {
+            background-color: #166fe5;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1877f2 0%, #0e62c4 100%);
+        }
+        .metric-card {
+            transition: all 0.3s ease;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="facebook-blue text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-feather="facebook" class="w-8 h-8"></i>
+                <span class="text-xl font-bold">Facebook Engagement Metrics</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#features" class="hover:underline">Features</a>
+                <a href="#installation" class="hover:underline">Installation</a>
+                <a href="#usage" class="hover:underline">Usage</a>
+                <a href="#contribute" class="hover:underline">Contribute</a>
+            </div>
+            <a href="https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics" class="bg-white facebook-blue-text px-4 py-2 rounded-md font-medium hover-facebook-blue hover:text-white transition">
+                <i data-feather="github" class="inline mr-2"></i> GitHub
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center" data-aos="fade-up">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Track Facebook Engagement Directly in WordPress</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Monitor likes, shares, and comments for all your published content with automatic updates every 3 hours.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#installation" class="bg-white facebook-blue-text px-6 py-3 rounded-md font-bold text-lg hover-facebook-blue hover:text-white transition">
+                    Get Started
+                </a>
+                <a href="https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics" class="bg-transparent border-2 border-white px-6 py-3 rounded-md font-bold text-lg hover:bg-white hover:facebook-blue-text transition">
+                    <i data-feather="github" class="inline mr-2"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 facebook-blue-text">Key Features</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="metric-card bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up">
+                    <div class="facebook-blue-text mb-4">
+                        <i data-feather="refresh-cw" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Automatic Updates</h3>
+                    <p class="text-gray-600">Metrics are refreshed every 3 hours using WordPress cron jobs, keeping your data current.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="metric-card bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="facebook-blue-text mb-4">
+                        <i data-feather="bar-chart-2" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Dashboard Widget</h3>
+                    <p class="text-gray-600">Quickly view engagement trends right from your WordPress dashboard.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="metric-card bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="facebook-blue-text mb-4">
+                        <i data-feather="zap" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Performance Optimized</h3>
+                    <p class="text-gray-600">Access token caching reduces API requests and improves loading times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="installation" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 facebook-blue-text">Installation Guide</h2>
+            
+            <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-4xl mx-auto" data-aos="fade-up">
+                <div class="facebook-blue text-white px-6 py-3">
+                    <h3 class="text-xl font-bold">Step-by-Step Setup</h3>
+                </div>
+                <div class="p-6">
+                    <div class="mb-6">
+                        <h4 class="font-bold mb-2 text-lg facebook-blue-text">1. Download the Plugin</h4>
+                        <p class="text-gray-600">Get the latest version from the <a href="https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics/" class="facebook-blue-text underline">GitHub repository</a>.</p>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold mb-2 text-lg facebook-blue-text">2. Install and Activate</h4>
+                        <p class="text-gray-600">Upload the ZIP file via WordPress admin > Plugins > Add New.</p>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold mb-2 text-lg facebook-blue-text">3. Create Facebook App</h4>
+                        <p class="text-gray-600">Register a new app on the <a href="https://developers.facebook.com/docs/apps/register/" class="facebook-blue-text underline">Facebook Developer Portal</a> to get App ID and Secret.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-bold mb-2 text-lg facebook-blue-text">4. Configure Settings</h4>
+                        <p class="text-gray-600">Enter your credentials in Settings > Facebook Engagement Metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section id="usage" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 facebook-blue-text">How It Works</h2>
+            
+            <div class="flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <img src="http://static.photos/technology/640x360/42" alt="Dashboard Widget" class="rounded-lg shadow-md">
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold mb-4 facebook-blue-text">Dashboard Widget</h3>
+                    <p class="text-gray-600 mb-4">The plugin adds a widget to your WordPress dashboard showing:</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="thumbs-up" class="mr-2 facebook-blue-text"></i>
+                            <span>Likes: Reaction counts on your Facebook links</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="share-2" class="mr-2 facebook-blue-text"></i>
+                            <span>Shares: Total number of times links have been shared</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="message-square" class="mr-2 facebook-blue-text"></i>
+                            <span>Comments: Comments associated with your links</span>
+                        </li>
+                    </ul>
+                    <p class="text-gray-600 mt-4">You can also manually refresh metrics anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contribute Section -->
+    <section id="contribute" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6 facebook-blue-text">Want to Contribute?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">We welcome improvements! Fork the repository and submit a pull request.</p>
+            <a href="https://github.com/VolkanSah/WP-Facebook-Engagement-Metrics" class="inline-block facebook-blue text-white px-6 py-3 rounded-md font-bold text-lg hover-facebook-blue transition">
+                <i data-feather="github" class="inline mr-2"></i> Contribute on GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>Developed by <a href="https://github.com/VolkanSah" class="facebook-blue-text">Volkan Kücükbudak</a></p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/VolkanSah" class="hover:text-blue-300 transition">
+                        <i data-feather="github" class="w-6 h-6"></i>
+                    </a>
+                    <a href="https://github.com/sponsors/volkansah" class="hover:text-blue-300 transition">
+                        <i data-feather="heart" class="w-6 h-6"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-6 text-center text-gray-400 text-sm">
+                <p>Facebook Engagement Metrics for WordPress - Open Source Plugin</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out'
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
